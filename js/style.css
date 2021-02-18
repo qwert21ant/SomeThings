@@ -1,0 +1,40 @@
+canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+#choose {
+	margin: auto;
+	margin-top: 200px;
+	padding: 10px 0px;
+	width: 300px;
+	background-color: #FFD6AD;
+	box-shadow: 0 0 20px 0 black;
+	border-radius: 10px;
+	font-family: Consolas;
+}
+
+#choose h1 {
+	padding-bottom: 10px;
+	color: gray;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#choose h3 {
+	padding: 10px 0px;
+	width: 80%;
+	margin: 0;
+	margin-bottom: 10px;
+	background-color: #82C6DD;
+	border-radius: 5px;
+}
+
+#choose h3:hover {
+	box-shadow: 10px 10px 20px 0 #2A7690 inset;
+}
